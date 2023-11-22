@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("bg.jpg");
+    
+}
+
+h1{
+    font-size: 48px;
+
+}
+
+h2{
+    font-size:30px;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 10px solid rgb(106, 39, 39);
+
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid lightcoral;
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+}
